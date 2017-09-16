@@ -35,6 +35,7 @@ public class Main {
         System.out.format("Free space: %s\n",graphicsCard2.getFreeSpace());
         System.out.format("Name of motherboard: %s\n", graphicsCard2.motherboardName());
 
+        System.out.println("Fourth motherboard has been added! ");
 
 
     }
