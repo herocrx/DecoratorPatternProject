@@ -48,7 +48,7 @@ public class Main {
         System.out.format("Name of motherboard: %s\n", processor1.motherboardName());
 
 
-
+        System.out.println("To analyze tomorrow!");
 
 
 
