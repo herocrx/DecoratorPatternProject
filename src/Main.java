@@ -13,6 +13,8 @@ public class Main {
 
         System.out.format("Price of motherboard1: %s \n",soundSpeaker.totalCost());
         System.out.format("%s\n",soundSpeaker.getComponentsName());
+        System.out.format("Free space: %s\n",soundSpeaker.getFreeSpace());
+        System.out.format("Name of motherboard: %s\n", soundSpeaker.motherboardName());
         System.out.println();
         System.out.println();
         MotherBoard motherboard2 = new MotherBoard("TR231",81,1120,30,30);
@@ -21,6 +23,8 @@ public class Main {
 
         System.out.format("Price of motherboard2: %s \n",networkCard2.totalCost());
         System.out.format("%s\n",networkCard2.getComponentsName());
+        System.out.format("Free space: %s\n",networkCard2.getFreeSpace());
+        System.out.format("Name of motherboard: %s\n", networkCard2.motherboardName());
 
         System.out.println();
         System.out.println();
@@ -28,6 +32,8 @@ public class Main {
         GraphicsCard graphicsCard2 = new GraphicsCard(motherboard3);
         System.out.format("Price of motherboard3: %s \n",graphicsCard2.totalCost());
         System.out.format("%s\n",graphicsCard2.getComponentsName());
+        System.out.format("Free space: %s\n",graphicsCard2.getFreeSpace());
+        System.out.format("Name of motherboard: %s\n", graphicsCard2.motherboardName());
 
 
 
