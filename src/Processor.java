@@ -1,7 +1,6 @@
 public class Processor extends MotherbardDecorator{
     public Processor(IMotherboard motherboard) {
         super(motherboard);
-        this.motherboard = motherboard;
     }
 
     @Override
@@ -21,12 +20,12 @@ public class Processor extends MotherbardDecorator{
 
     @Override
     public double heat() {
-        return motherboard.heat() + 53;
+        return motherboard.heat() - 13;
     }
 
     @Override
     public double totalCost() {
-        return motherboard.totalCost() + 103;
+        return motherboard.totalCost() + 13;
     }
 
     @Override
@@ -42,6 +41,6 @@ public class Processor extends MotherbardDecorator{
 
     @Override
     public String getComponentsName() {
-        return motherboard.getComponentsName() + "processor,";
+        return motherboard.getComponentsName() + "fan,";
     }
 }

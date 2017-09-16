@@ -1,7 +1,6 @@
 public class GraphicsCard extends MotherbardDecorator {
     public GraphicsCard(IMotherboard motherboard) {
         super(motherboard);
-        this.motherboard = motherboard;
     }
 
     @Override

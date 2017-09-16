@@ -1,7 +1,6 @@
 public class RAM extends MotherbardDecorator {
     public RAM(IMotherboard motherboard) {
         super(motherboard);
-        this.motherboard = motherboard;
     }
 
     @Override

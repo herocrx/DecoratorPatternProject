@@ -1,7 +1,6 @@
 public class NetworkCard extends MotherbardDecorator{
     public NetworkCard(IMotherboard motherboard) {
         super(motherboard);
-        this.motherboard = motherboard;
     }
 
     @Override

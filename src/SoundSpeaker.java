@@ -1,7 +1,6 @@
 public class SoundSpeaker extends MotherbardDecorator{
     public SoundSpeaker(IMotherboard motherboard) {
         super(motherboard);
-        this.motherboard = motherboard;
     }
 
     @Override

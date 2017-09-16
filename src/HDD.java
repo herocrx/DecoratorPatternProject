@@ -1,7 +1,6 @@
 public class HDD extends MotherbardDecorator{
     public HDD(IMotherboard motherboard) {
         super(motherboard);
-        this.motherboard = motherboard;
     }
 
     @Override

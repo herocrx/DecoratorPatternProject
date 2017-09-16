@@ -1,5 +1,5 @@
-public abstract class MotherbardDecorator implements IMotherboard  {
-
+//public abstract class MotherbardDecorator implements IMotherboard  {
+    public abstract class MotherbardDecorator implements IMotherboard  {
     public MotherbardDecorator(IMotherboard motherboard) {
         this.motherboard = motherboard;
     }
@@ -44,5 +44,5 @@ public abstract class MotherbardDecorator implements IMotherboard  {
         return false;
     }
 
-    IMotherboard motherboard;
+    protected final IMotherboard motherboard;
 }

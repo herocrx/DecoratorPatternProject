@@ -2,7 +2,7 @@ public class Fan extends MotherbardDecorator {
 
     public Fan(IMotherboard motherboard) {
         super(motherboard);
-        this.motherboard = motherboard;
+       // this.motherboard = motherboard;
     }
 
     @Override
