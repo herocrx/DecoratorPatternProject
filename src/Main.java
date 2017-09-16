@@ -36,6 +36,21 @@ public class Main {
         System.out.format("Name of motherboard: %s\n", graphicsCard2.motherboardName());
 
 
+        System.out.println();
+        System.out.println();
+        MotherBoard motherboard4 = new MotherBoard("CH221",111,10,80,300);
+        GraphicsCard graphicsCard3 = new GraphicsCard(motherboard4);
+        NetworkCard networkCard3 = new NetworkCard(graphicsCard3);
+        Processor processor1 = new Processor(networkCard3);
+        System.out.format("Price of motherboard4: %s \n",processor1.totalCost());
+        System.out.format("%s\n",processor1.getComponentsName());
+        System.out.format("Free space: %s\n",processor1.getFreeSpace());
+        System.out.format("Name of motherboard: %s\n", processor1.motherboardName());
+
+
+
+
+
 
     }
 }
