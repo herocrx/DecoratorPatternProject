@@ -7,9 +7,12 @@ public class Main {
         GraphicsCard graphicsCard = new GraphicsCard(fan);
         HDD hdd = new HDD(graphicsCard);
         NetworkCard networkCard = new NetworkCard(hdd);
+        Processor processor = new Processor(networkCard);
+        RAM ram = new RAM(processor);
+        SoundSpeaker soundSpeaker = new SoundSpeaker(ram);
 
-        System.out.format("Price of motherboard1: %s \n",networkCard.totalCost());
-        System.out.format("%s\n",networkCard.getComponentsName());
+        System.out.format("Price of motherboard1: %s \n",soundSpeaker.totalCost());
+        System.out.format("%s\n",soundSpeaker.getComponentsName());
         System.out.println();
         System.out.println();
         MotherBoard motherboard2 = new MotherBoard("TR231",81,1120,30,30);
